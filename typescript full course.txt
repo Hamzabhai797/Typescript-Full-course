@@ -1,0 +1,151 @@
+What is typescript
+	typescript javascript ka superset hai
+	typescript humy error checking ma bohat help karta hay
+	typescript ma static typing bhi add karsaktay hai
+	typecript ecmascript support hay
+
+		tsc -w agar Hum cmd ma run kartay Hain to pir hum jab bhi Typescript ma changing karaingay to 
+		Javascript ma automatically change ho jai ga
+
+	Typescript ma switch case and conditional statement same method ka hoty hai
+
+	
+Differences of typescript and javascript
+Javascript ka ander hum dynamically type ki cheson ko use karty hay
+typescript ka ander hum statically type ki cheeson ko use karty hai
+Statically mean ka value change nahi hoge
+
+typescript ka code humey javascript mai compile karna hota hay otherwise browser ma run nahi hoga
+typecript ma humy better support milta hay interfaces, classes, generics ka liay
+typescript ka learning curve thora sa higher hai kyun ka is ka ander static type and addional feature ka use hota hai
+typescript large ya complex application ka liay ziada suitable hay
+typescript ma development speed thori kam hote hay kyun ka is ma checking and compilng hote hay
+
+	backword compability
+typescript modern browser ko support karta hay mean ka modern javascript ka features ko
+
+Dynamically mean ka value change hoge
+javascript ka code direct browser ma run hota hay
+javascript ma humy basic suppot milta hai
+javascript ka learning curve easier hay kyun ka ya asaan hay
+javascript smaller project ka liay suitable hota hay but ya baryproject ka liay bhi use karsaty hoo
+javascript ma development speed fast hote hay
+	javascript ka code sary browser ma istamal hota hai
+	javascript browser ki languge hay
+
+Cross-platform execution
+	javascript sary browser ma run karta hay
+	javascript ma kafi sari libraries liki gai hay (Example react,jquery, D3.js) 
+
+		type safety without runtime changes
+	typescript ki jo static type hai wo humy help karti hay error catch karny ma
+        typescript ka code javascript ma convert hota hay wo is liay ka koi bhi enviourment ka run karsaky
+
+
+	Typescript ma function likny ka tareeka
+	name function ma humy name batana parta hai or function start karny ka liay function likna parhta hai
+	Example  
+function funcName(){
+ console.log("this is my first function")
+}
+funcName()
+
+	arrow function ma humy is tarha likna parta hai
+let arrowFunction = () => {}    //is ko anonymous bhi kaha jata hai or ya call simple tareeky sa hoga jesy dosra function hota hai
+	
+	jo funcName kuch bhi return Nahi karta to us ki type (void) hote hai
+
+Argument ka zariay jo bhi data post karen gay wo humy parameter ka zariay recieve ho jai ga
+
+
+let sum = (val1:number, val2:number)=>{		// is line ma jo val1, val2 hai is ko hum parameter kehty hai
+    console.log(val1)
+    console.log(val2)
+}
+
+sum(3, 7) 		// is line ma jo (3, 7)  hai is ko hum Argument kehty hai
+
+types of veriable in typecript
+	let  // let veriable block scoped hota hai
+	var // var veriable function scoped hota hai
+	const  // const veriable bhi block scoped hota hai
+tamam veriable kai naam apny apny scoped ma unique hoty Hain
+
+	union type
+	union type humy permission deta hay datatype change karny ki 
+	Example
+		agar hum aik string likty hai or pir hum usi string ko number ma change karty hai to union type laga ka change hoga otherwise nahi hoga
+		byt yaad rahy ka number start  zero sa na hoo 
+		union type ma aik sa ziada datatype store ho sakty Hain
+		Union type ka tag    |   
+
+    let mobile:string | number = "mobile"
+    mobile = 3038239
+
+	Module
+	Module humary pass aik aesa function hota hai jsy hum next file ma create karty hai
+	Example :  Hum na aik file banai service.ts ka name sa or us ma hum na aik function banaya or banany sa pehle export krwaya
+			   pir hum apny porani file ma gai yani main.ts ma or waha hum na function ko import krwaya and call karwaya
+			   jab call karwaingy to cmd ma answer aajai ga jo hum na function ma lika hoga
+		Example 2: 
+		    first service.ts ki file 
+					export let func = ()=>{
+                    console.log("hamza")
+                }
+			 and ab main.ts ki file
+				import { func } from "./service";
+                func()
+			ya wala Module ecmascript ka hay
+
+	Array
+	Array ma aik sa ziada type ki value bhi hosakte hay and aik sa ziada type ka data bhi hosakta hai
+	Array ka ander hum aik or Array bhi bana sakty hai
+
+	// push
+	push method ma hum last ma koi aik value add karty hai Array ma
+
+	Example
+	let arr:string = ["Hamza", "osama", "bilal"]
+    arr.push("ahmed")
+	console.log(arr)
+	console.log(arr.push("aayan")) // is sa index number aajaingy
+			
+	// pop
+	pop method ma last sa aik value delete ho jate hay automatically
+
+	Example
+let arr:string = ["Hamza", "osama", "bilal"]
+arr.pop()
+console.log(arr)
+console.log(arr.pop()) // is ma humary pass just last value delete hoge
+
+
+		// shift
+		shift ma humary pass start ki value delete ho jai ge
+	
+	Example
+let arr = ["hamza", "osama", "bilal"]
+arr.shift()
+console.log(arr)
+console.log(arr.shift())  // is ma humary pass just first value delete hoge
+
+		// unshift
+		is ma humary pass start ma aik value add ho ge
+	
+	Example
+let arr = ["hamza", "osama", "bilal"]
+arr.unshift("ahmed")
+console.log(arr)
+console.log(arr.unshift("ahmed")) // is ma humary pass index lika hua aaraha hai
+
+	slice
+	ya seleted element ko print krta hay agr ma console.log ma liko ka 1, 3 sai tak to just 1 and 2 aei ga 3 nahi aei ga
+
+	Example
+let arr = ["hamza", "osama", "bilal", "ahmed", "israr"]
+console.log(arr.slice(1,3))  	// is ma just 1 and 2 aei ga 3 nahi aei ga
+
+		// splice
+let arr = ["hamza", "osama", "bilal", "ahmed", "israr"]
+let delete2 = arr.splice(1, 2, "zahoor") // 1 sa start hoga or 2 tak jaye ga or 2 ko delete kar dega us ki jaga zahoor lik dega
+console.log(arr)
