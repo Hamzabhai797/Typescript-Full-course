@@ -2,10 +2,18 @@ let display = document.getElementById('inputBox');
 let buttons = document.querySelectorAll('button');
 
 let buttonsArray = Array.from(buttons);
+let string = '';
 
 buttonsArray.forEach(btn => {
 
     btn.addEventListener('click',(e) => {
-        console.log(e.target)
+
+        if(e.target.innerHTML == 'DEL'){
+            string = string.substring(0, string.length - 1);
+        }
+
+        string += e.target.innerHTML;
+        display.value = string;
+
     });
 });
