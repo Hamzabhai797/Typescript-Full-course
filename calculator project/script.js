@@ -16,4 +16,4 @@ buttonsArray.forEach(btn => {
         display.value = string;
 
     });
-});
+})
