@@ -1,3 +1,5 @@
+// Core type of typescript
+// string , boolean , number ko Kehty hai
 // type of variable
 // 3 types
 // let
@@ -13,9 +15,14 @@
 // console.log(myName)
 // let para = "practice\t of typescript"
 // console.log(para)
-var marks = 70;
-if (marks > 80 || marks == 90)
-    console.log("Grade: A");
+// let marks = 70
+// if(marks > 80 || marks == 90)
+//     console.log("Grade: A")
+// else
+//     (marks > 70 || marks == 79)
+//     console.log("Grade: B")
+var marks = 50;
+if (marks == 90 || marks == 99)
+    console.log("grade: A");
 else
-    (marks > 70 || marks == 79);
-console.log("Grade: B");
+    console.log("grade: B");
