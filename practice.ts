@@ -53,7 +53,35 @@
 //     console.log("bye")
 // }
 
-function myName(){
-    console.log("Hamza")
+// function myName(){
+//     console.log("Hamza")
+// }
+// myName()
+
+// function firstName(){
+//     console.log("hi i am hamza")
+// }
+// firstName()
+
+// function firstName(){
+//     let total = 2 + 5
+//     return total
+// }
+// let data = firstName()
+// console.log(data)
+
+// function myName (){
+//     let total = 2 + 8
+//     console.log(total)
+// }
+// myName()
+
+
+    //   nested function
+function myFunc(){
+    console.log("hello i am hamza")
 }
-myName()
+function secName(){
+    myFunc()
+}
+secName()
