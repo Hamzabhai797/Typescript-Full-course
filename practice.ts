@@ -36,3 +36,19 @@
 //     console.log("grade: A")
 // else 
 //     console.log("grade: B")
+
+let user = "hamza"
+let pass = 123
+let code = 345
+
+if (user == "hamza" && pass == 123){
+    console.log("kindly provide code");
+    if(code == 456){
+        console.log("Thnk for providing code")
+    }
+    else{
+        console.log("invalid code")
+    }
+}   else {
+    console.log("bye")
+}
