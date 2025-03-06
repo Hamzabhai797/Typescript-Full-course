@@ -247,6 +247,12 @@
 // let arr = ["hamza", "osama", "bilal", "ahmed", "israr"]
 // console.log(arr.slice(1,3))
 // splice
-var arr = ["hamza", "osama", "bilal", "ahmed", "israr"];
-var delete2 = arr.splice(1, 2, "zahoor");
-console.log(arr);
+// let arr = ["hamza", "osama", "bilal", "ahmed", "israr"]
+// let delete2 = arr.splice(1, 2, "zahoor") // 1 sa start hoga or 2 tak jaye ga or 2 ko delete kar dega us ki jaga zahoor lik dega
+// console.log(arr)
+// for loop
+var i = 0;
+for (i = 0; i < 10; i++) {
+    // console.log(i)
+    console.log("".concat(i, " x 2 = ").concat(i * 2));
+}
