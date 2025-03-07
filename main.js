@@ -251,8 +251,20 @@
 // let delete2 = arr.splice(1, 2, "zahoor") // 1 sa start hoga or 2 tak jaye ga or 2 ko delete kar dega us ki jaga zahoor lik dega
 // console.log(arr)
 // for loop
-var i = 0;
-for (i = 0; i < 10; i++) {
+// let i = 0
+// for (i = 0; i < 10; i++){
+// console.log(i)
+// console.log(`${i} x 2 = ${i*2}`) // is ma 2 ka table print ho jai ga
+// }
+// for (let i = 0; i <= 10; i++){
+//         console.log(i)
+// }
+// for (let i = 0; i <= 10; i++){
+//         let n1 =2
+//         console.log(n1 + " " + "x" + " " + i + " " + "=")
+// }
+for (var i = 0; i < 11; i++) {
     // console.log(i)
-    console.log("".concat(i, " x 2 = ").concat(i * 2));
+    var n1 = 3;
+    console.log(n1 + " " + "x" + " " + i + " " + "=" + " " + n1 * i);
 }

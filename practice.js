@@ -59,10 +59,15 @@
 //     console.log(total)
 // }
 // myName()
-function myFunc() {
-    console.log("hello i am hamza");
+//   nested function
+// function myFunc(){
+//     console.log("hello i am hamza")
+// }
+// function secName(){
+//     myFunc()
+// }
+// secName()
+for (var i = 0; i < 11; i++) {
+    var n1 = 3;
+    console.log(n1 + " " + "x" + " " + i + " " + "=" + " " + n1 * i);
 }
-function secName() {
-    myFunc();
-}
-secName();

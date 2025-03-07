@@ -337,8 +337,23 @@
 
 
                 // for loop
-let i = 0
-for (i = 0; i < 10; i++){
+// let i = 0
+// for (i = 0; i < 10; i++){
         // console.log(i)
-        console.log(`${i} x 2 = ${i*2}`) // is ma 2 ka table print ho jai ga
+        // console.log(`${i} x 2 = ${i*2}`) // is ma 2 ka table print ho jai ga
+// }
+
+// for (let i = 0; i <= 10; i++){
+//         console.log(i)
+// }
+
+// for (let i = 0; i <= 10; i++){
+//         let n1 =2
+//         console.log(n1 + " " + "x" + " " + i + " " + "=")
+// }
+
+for (let i =0; i < 11; i++){
+        // console.log(i)
+        let n1 = 3
+        console.log(n1 + " " + "x" + " " + i + " " + "=" + " " + n1*i)
 }

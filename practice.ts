@@ -78,10 +78,15 @@
 
 
     //   nested function
-function myFunc(){
-    console.log("hello i am hamza")
+// function myFunc(){
+//     console.log("hello i am hamza")
+// }
+// function secName(){
+//     myFunc()
+// }
+// secName()
+
+for (let i =0; i < 11; i++){
+    let n1 = 3
+    console.log(n1 + " " + "x" + " " + i + " " + "=" + " " + n1*i)
 }
-function secName(){
-    myFunc()
-}
-secName()
