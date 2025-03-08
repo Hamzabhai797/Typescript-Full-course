@@ -352,8 +352,19 @@
 //         console.log(n1 + " " + "x" + " " + i + " " + "=")
 // }
 
-for (let i =0; i < 11; i++){
-        // console.log(i)
-        let n1 = 3
-        console.log(n1 + " " + "x" + " " + i + " " + "=" + " " + n1*i)
+// for (let i =0; i < 11; i++){
+//         // console.log(i)
+//         let n1 = 3
+//         console.log(n1 + " " + "x" + " " + i + " " + "=" + " " + n1*i)
+// }
+
+// nested for loop
+let n = 5
+let a = ""
+for (let i = 1; i <= n; i++){
+     for(let j = 1; j <=i ; j++){
+        a += "*"
+     }
+        a += "\n"
 }
+console.log(a)

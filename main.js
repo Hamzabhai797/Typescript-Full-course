@@ -263,8 +263,18 @@
 //         let n1 =2
 //         console.log(n1 + " " + "x" + " " + i + " " + "=")
 // }
-for (var i = 0; i < 11; i++) {
-    // console.log(i)
-    var n1 = 3;
-    console.log(n1 + " " + "x" + " " + i + " " + "=" + " " + n1 * i);
+// for (let i =0; i < 11; i++){
+//         // console.log(i)
+//         let n1 = 3
+//         console.log(n1 + " " + "x" + " " + i + " " + "=" + " " + n1*i)
+// }
+// nested for loop
+var n = 5;
+var a = "";
+for (var i = 1; i <= n; i++) {
+    for (var j = 1; j <= i; j++) {
+        a += "*";
+    }
+    a += "\n";
 }
+console.log(a);
