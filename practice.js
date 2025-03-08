@@ -67,7 +67,19 @@
 //     myFunc()
 // }
 // secName()
-for (var i = 0; i < 11; i++) {
-    var n1 = 3;
-    console.log(n1 + " " + "x" + " " + i + " " + "=" + " " + n1 * i);
+// for (let i =0; i < 11; i++){
+//     let n1 = 3
+//     console.log(n1 + " " + "x" + " " + i + " " + "=" + " " + n1*i)
+// for (let i = 0; i < 11; i++){
+//     console.log(i)
+// }
+// for (let i = 0; i <= 10; i++){
+//     if ( i % 2 == 0){
+//         console.log(i)
+//     }
+// }
+for (var i = 0; i <= 10; i++) {
+    if (i % 2 !== 0) {
+        console.log(i);
+    }
 }

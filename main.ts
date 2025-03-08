@@ -359,12 +359,12 @@
 // }
 
 // nested for loop
-let n = 5
-let a = ""
-for (let i = 1; i <= n; i++){
-     for(let j = 1; j <=i ; j++){
-        a += "*"
-     }
-        a += "\n"
-}
-console.log(a)
+// let n = 5
+// let a = ""
+// for (let i = 1; i <= n; i++){
+//      for(let j = 1; j <=i ; j++){
+//         a += "*"
+//      }
+//         a += "\n"
+// }
+// console.log(a)
