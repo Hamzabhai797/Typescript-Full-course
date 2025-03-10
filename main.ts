@@ -368,3 +368,28 @@
 //         a += "\n"
 // }
 // console.log(a)
+
+
+// object
+// let user = {
+//         name: "hamza",
+//         lastname: "khan",
+//         age: 20,
+// }
+// console.log(user)
+
+// let user = {
+//         name: "hamza",
+//         lastname: "khan",
+//         age: 20,
+// }
+// console.log(user.lastname)
+
+let user = {
+        name: "hamza",
+        lastname: "khan",
+        age: 20,
+        hobbies: ["cricket", "football", "hockey"]
+}
+// console.log(user.hobbies)
+console.log(user.hobbies[0])

@@ -269,12 +269,33 @@
 //         console.log(n1 + " " + "x" + " " + i + " " + "=" + " " + n1*i)
 // }
 // nested for loop
-var n = 5;
-var a = "";
-for (var i = 1; i <= n; i++) {
-    for (var j = 1; j <= i; j++) {
-        a += "*";
-    }
-    a += "\n";
-}
-console.log(a);
+// let n = 5
+// let a = ""
+// for (let i = 1; i <= n; i++){
+//      for(let j = 1; j <=i ; j++){
+//         a += "*"
+//      }
+//         a += "\n"
+// }
+// console.log(a)
+// object
+// let user = {
+//         name: "hamza",
+//         lastname: "khan",
+//         age: 20,
+// }
+// console.log(user)
+// let user = {
+//         name: "hamza",
+//         lastname: "khan",
+//         age: 20,
+// }
+// console.log(user.lastname)
+var user = {
+    name: "hamza",
+    lastname: "khan",
+    age: 20,
+    hobbies: ["cricket", "football", "hockey"]
+};
+// console.log(user.hobbies)
+console.log(user.hobbies[0]);
