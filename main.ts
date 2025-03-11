@@ -385,11 +385,34 @@
 // }
 // console.log(user.lastname)
 
+// let user = {
+//         name: "hamza",
+//         lastname: "khan",
+//         age: 20,
+//         hobbies: ["cricket", "football", "hockey"]
+// }
+// console.log(user.hobbies)
+// console.log(user.hobbies[0])
+
+// let user = {
+//         name: "hamza",
+//         lastname: "khan",
+//         age: 20,
+//         hobbies: ["cricket", "football", "hockey"],
+//         salary: () => (50000)
+
+// }
+// console.log(user.salary())
+
 let user = {
         name: "hamza",
         lastname: "khan",
         age: 20,
-        hobbies: ["cricket", "football", "hockey"]
+        hobbies: ["cricket", "football", "hockey"],
+        salary: () => (50000)
+
 }
-// console.log(user.hobbies)
-console.log(user.hobbies[0])
+// delete user.hobbies  // is sa hobbies delete ho jai gi
+console.log(user)
+
+time = "8 minutes"
