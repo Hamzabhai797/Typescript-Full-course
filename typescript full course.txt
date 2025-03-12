@@ -152,4 +152,14 @@ console.log(arr)
 
 	object
 	object Array ki advance keh lati hai jo kaam hum Array ma nahi karsaktay wo object ma kar sakty hai
-	object ma humary pass key and value hote hai 
+	object ma humary pass key and value hote hai
+
+	// let user = {
+//         name: "hamza",
+//         lastname: "khan",
+//         age: 20,
+//         hobbies: ["cricket", "football", "hockey"],
+//         salary: () => (50000)
+// }
+
+// console.log("email" in user) // is sa email check ho jai ga ka user ka pass email hai ya nahi 

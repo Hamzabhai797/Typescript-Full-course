@@ -307,12 +307,29 @@
 //         salary: () => (50000)
 // }
 // console.log(user.salary())
+// let user = {
+//         name: "hamza",
+//         lastname: "khan",
+//         age: 20,
+//         hobbies: ["cricket", "football", "hockey"],
+//         salary: () => (50000)
+// }
+// delete user.hobbies  // is sa hobbies delete ho jai gi
+// console.log(user)
+// let user = {
+//         name: "hamza",
+//         lastname: "khan",
+//         age: 20,
+//         hobbies: ["cricket", "football", "hockey"],
+//         salary: () => (50000)
+// }
+// console.log("email" in user) // is sa email check ho jai ga ka user ka pass email hai ya nahi
 var user = {
     name: "hamza",
     lastname: "khan",
     age: 20,
     hobbies: ["cricket", "football", "hockey"],
-    salary: function () { return (50000); }
+    salary: function () { return (50000); },
+    email: "hamza"
 };
-// delete user.hobbies  // is sa hobbies delete ho jai gi
-console.log(user.name, user.salary(), user.hobbies, user.age, user.lastname);
+console.log("email" in user);
