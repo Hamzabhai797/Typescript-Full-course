@@ -434,3 +434,26 @@
 // }
 
 // console.log("email" in user) 
+
+                // math object
+// Math object Tecnically predefine javascript/typescript ka function hai
+
+// let x:number = Math.round(4.7)
+// console.log(x) // ans 5
+
+// let x:number = Math.round(4.2)
+// console.log(x) // anw 4
+
+// let x:number = Math.ceil(4.2)
+// console.log(x)
+
+// let x:number = Math.round(4.9)
+// console.log(x)
+
+// let x:number = Math.floor(4.9)
+// console.log(x)
+
+// let x:number = Math.floor(4.2)
+// console.log(x)
+
+time = "5:5"

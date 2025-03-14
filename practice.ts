@@ -100,8 +100,14 @@
 //     }
 // }
 
-for (let i = 0; i <= 10; i++){
-    if ( i % 2 !== 0){
-        console.log(i)
-    }
-}
+// for (let i = 0; i <= 10; i++){
+//     if ( i % 2 !== 0){
+//         console.log(i)
+//     }
+// }
+
+// function myNum(a:number, b:number){
+//     return a + b
+// }
+// console.log(myNum(3, 6))
+

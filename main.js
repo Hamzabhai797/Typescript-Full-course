@@ -324,12 +324,26 @@
 //         salary: () => (50000)
 // }
 // console.log("email" in user) // is sa email check ho jai ga ka user ka pass email hai ya nahi
-var user = {
-    name: "hamza",
-    lastname: "khan",
-    age: 20,
-    hobbies: ["cricket", "football", "hockey"],
-    salary: function () { return (50000); },
-    email: "hamza"
-};
-console.log("email" in user);
+// let user = {
+//         name: "hamza",
+//         lastname: "khan",
+//         age: 20,
+//         hobbies: ["cricket", "football", "hockey"],
+//         salary: () => (50000),
+//         email: "hamza"
+// }
+// console.log("email" in user) 
+// math object
+// Math object Tecnically predefine javascript/typescript ka function hai
+// let x:number = Math.round(4.7)
+// console.log(x) // ans 5
+// let x:number = Math.round(4.2)
+// console.log(x) // anw 4
+// let x:number = Math.ceil(4.2)
+// console.log(x)
+// let x:number = Math.round(4.9)
+// console.log(x)
+// let x:number = Math.floor(4.9)
+// console.log(x)
+var x = Math.floor(4.2);
+console.log(x);

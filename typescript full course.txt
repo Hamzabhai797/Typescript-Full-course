@@ -162,4 +162,11 @@ console.log(arr)
 //         salary: () => (50000)
 // }
 
-// console.log("email" in user) // is sa email check ho jai ga ka user ka pass email hai ya nahi 
+// console.log("email" in user) // is sa email check ho jai ga ka user ka pass email hai ya nahi
+
+					 math object
+// Math object Tecnically predefine javascript/typescript ka function hai
+	math.round()  ma number roundoff kia jata hay 
+	math.ceil() ma jo bhi point ki value hoo ho number barha dia jata hai
+	math.floor() ma jo bhi point ki value ho usko ko consider nahi kary ga chahy roundoff ziada hay ya kam hoo
+	
