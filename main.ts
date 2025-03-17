@@ -435,6 +435,7 @@
 
 // console.log("email" in user) 
 
+
                 // math object
 // Math object Tecnically predefine javascript/typescript ka function hai
 
@@ -456,4 +457,17 @@
 // let x:number = Math.floor(4.2)
 // console.log(x)
 
-time = "5:5"
+// let x: number = Math.trunc(4.9);
+// console.log(x); // Output: 4
+
+// let x:number = Math.pow(2, 3)
+// console.log(x)
+
+// let x:number = Math.sqrt(2)
+// console.log(x)
+
+// let x:number = Math.min(2, 50, 23, 46, 78)
+// console.log(x)
+
+let x:number = Math.max(2, 50, 23, 46, 78)
+console.log(x)

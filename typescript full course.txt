@@ -28,7 +28,7 @@ Dynamically mean ka value change hoge
 javascript ka code direct browser ma run hota hay
 javascript ma humy basic suppot milta hai
 javascript ka learning curve easier hay kyun ka ya asaan hay
-javascript smaller project ka liay suitable hota hay but ya baryproject ka liay bhi use karsaty hoo
+javascript smaller project ka liay suitable hota hay but ya bary project ka liay bhi use karsaty hoo
 javascript ma development speed fast hote hay
 	javascript ka code sary browser ma istamal hota hai
 	javascript browser ki languge hay
@@ -169,4 +169,9 @@ console.log(arr)
 	math.round()  ma number roundoff kia jata hay 
 	math.ceil() ma jo bhi point ki value hoo ho number barha dia jata hai
 	math.floor() ma jo bhi point ki value ho usko ko consider nahi kary ga chahy roundoff ziada hay ya kam hoo
+	math.pow() ma jo bhi value pehle liko gay to wo base kehlaigi or jo second value hoge wo power kehlaigi
+	math.squt() ma jo bhi value liko gay to us ka square root aei ga (ex: agr 25 liko gay to 5 answer mily ga)
+	math.min() ma jitne bhi values ap liko gay gy to sab sa chote value ap ka pass aei ge
+	math.max() ma jitne bhi values ap liko gay gy to sab sa bari value ap ka pass aei ge
+
 	
