@@ -174,4 +174,15 @@ console.log(arr)
 	math.min() ma jitne bhi values ap liko gay gy to sab sa chote value ap ka pass aei ge
 	math.max() ma jitne bhi values ap liko gay gy to sab sa bari value ap ka pass aei ge
 
+	destructring (Array and object)
+	Aik to ya code ko saaf karta hay
+
+		destructure  syntex    (let [] = arr)
+		
+	destructring method
+
+let arr = ["Hamza", 21, "hamza@mail"]
+let [name1, age, email] = arr
+console.log(ag)
+
 	

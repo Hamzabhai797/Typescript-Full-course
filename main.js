@@ -355,5 +355,9 @@
 // console.log(x)
 // let x:number = Math.min(2, 50, 23, 46, 78)
 // console.log(x)
-var x = Math.max(2, 50, 23, 46, 78);
-console.log(x);
+// let x:number = Math.max(2, 50, 23, 46, 78)
+// console.log(x)
+// Array destructring
+var arr = ["Hamza", 21, "hamza@mail"];
+var name1 = arr[0], age = arr[1], email = arr[2];
+console.log(age);

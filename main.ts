@@ -469,5 +469,12 @@
 // let x:number = Math.min(2, 50, 23, 46, 78)
 // console.log(x)
 
-let x:number = Math.max(2, 50, 23, 46, 78)
-console.log(x)
+// let x:number = Math.max(2, 50, 23, 46, 78)
+// console.log(x)
+
+                // Array destructring
+let arr = ["Hamza", 21, "hamza@mail"]
+let [name1, age, email] = arr
+console.log(age)
+
+// time = "4:00"
