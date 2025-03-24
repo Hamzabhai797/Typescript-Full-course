@@ -180,9 +180,35 @@ console.log(arr)
 		destructure  syntex    (let [] = arr)
 		
 	destructring method
-
+		Array destructring
 let arr = ["Hamza", 21, "hamza@mail"]
 let [name1, age, email] = arr
 console.log(ag)
+
+		object destructring
+let obj = {
+        name1: "hamza",
+        age: 21,
+        email: "hamza@mail",
+        hobbies: ["cricket", "football", "hockey"]
+}
+let {name1, age, email, hobbies} = obj
+console.log(age)
+
+
+
+                // interface
+		interface ma hum object ki sari key values ka datatype bataty hay
+interface objtype{
+        name1: string,
+        age: number,
+        email: string
+}
+let obj = {
+        name1: "hamza",
+        age: 21,
+        email: "hamza@mail",
+}
+console.log(obj)
 
 	

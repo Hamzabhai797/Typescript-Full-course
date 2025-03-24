@@ -473,8 +473,36 @@
 // console.log(x)
 
                 // Array destructring
-let arr = ["Hamza", 21, "hamza@mail"]
-let [name1, age, email] = arr
-console.log(age)
+// let arr = ["Hamza", 21, "hamza@mail"]
+// let [name1, age, email] = arr
+// console.log(age)
 
-// time = "4:00"
+                // Object destructring
+// let obj = {
+//         name1: "hamza",
+//         age: 21,
+//         email: "hamza@mail",
+//         hobbies: ["cricket", "football", "hockey"]
+// }
+
+// let {name1, age, email, hobbies} = obj
+
+// console.log(age)
+
+
+                // interface
+interface objtype{
+        name1: string,
+        age: number,
+        email: string
+        func:()=> void
+}
+let obj = {
+        name1: "hamza",
+        age: 21,
+        email: "hamza@mail",
+        function: () => {
+                console.log("this is my function")
+        }
+}
+console.log(obj)
