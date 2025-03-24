@@ -1,11 +1,6 @@
 // Core type of typescript
 // String, Number, boolean
-var obj = {
-    name1: "hamza",
-    age: 21,
-    email: "hamza@mail",
-    function: function () {
-        console.log("this is my function");
-    }
-};
-console.log(obj);
+var id = 123;
+var name1 = "hamza";
+var email = "hamza@mail";
+console.log(id, name1, email);

@@ -491,18 +491,30 @@
 
 
                 // interface
-interface objtype{
-        name1: string,
-        age: number,
-        email: string
-        func:()=> void
-}
-let obj = {
-        name1: "hamza",
-        age: 21,
-        email: "hamza@mail",
-        function: () => {
-                console.log("this is my function")
-        }
-}
-console.log(obj)
+// interface objtype{
+//         name1: string,
+//         age: number,
+//         email: string
+//         func:()=> void
+// }
+// let obj = {
+//         name1: "hamza",
+//         age: 21,
+//         email: "hamza@mail",
+//         function: () => {
+//                 console.log("this is my function")
+//         }
+// }
+// console.log(obj)
+
+                // type usage
+type idType = number
+type nameType = string
+type emailType = string
+
+let id:idType = 123
+let name1:nameType = "hamza"
+let email:emailType = "hamza@mail"
+console.log(id, name1, email)
+
+time = "2:7"
