@@ -59,6 +59,14 @@
 //     console.log("bye ")
 // }
 
+// let num = 5
+// if (num == 5){
+//         console.log("True")
+// }
+// else{
+//         console.log("False")
+// }
+
 // let Name = "Hamza"
 // if (Name == "Hamza") {
 //     console.log("Well come Hamza")
@@ -508,13 +516,13 @@
 // console.log(obj)
 
                 // type usage
-type idType = number
-type nameType = string
-type emailType = string
+// type idType = number
+// type nameType = string
+// type emailType = string
 
-let id:idType = 123
-let name1:nameType = "hamza"
-let email:emailType = "hamza@mail"
-console.log(id, name1, email)
+// let id:idType = 123
+// let name1:nameType = "hamza"
+// let email:emailType = "hamza@mail"
+// console.log(id, name1, email)
 
-time = "2:7"
+// time = "2:7"
