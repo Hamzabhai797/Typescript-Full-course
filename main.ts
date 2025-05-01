@@ -144,6 +144,23 @@
 //         console.log("your grade is incorrect")
 // }
 
+// let grade = "A"
+// switch(grade){
+//         case "A":
+//                 console.log("Well done")
+//                 break;
+//         case "B":
+//                 console.log("Good");
+//                 break;
+//         case "c":
+//                 console.log("Well try");
+//                 break;
+//         case "D":
+//                 console.log("try again");
+//                 break;
+//         default:
+//                 console.log("fail")
+// }
 
 //      functions in typescript
 
@@ -154,6 +171,11 @@
 //     console.log("this is my first function")
 // }
 // funcName()
+
+// function myName(){
+//         console.log("This is Hamza")
+// }
+// myName()
 
 // function funcName(){
 //     console.log("this is my first function")
@@ -193,6 +215,11 @@
 
 // let arrowFunction = () => {
 //     console.log("hamza")
+// }
+// arrowFunction()
+
+// let arrowFunction = () => {
+//         console.log("this is arrow funct")
 // }
 // arrowFunction()
 

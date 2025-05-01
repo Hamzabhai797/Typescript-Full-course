@@ -48,13 +48,13 @@
 // else{
 //     console.log("bye ")
 // }
-var num = 5;
-if (num == 5) {
-    console.log("True");
-}
-else {
-    console.log("False");
-}
+// let num = 5
+// if (num == 5){
+//         console.log("True")
+// }
+// else{
+//         console.log("False")
+// }
 // let Name = "Hamza"
 // if (Name == "Hamza") {
 //     console.log("Well come Hamza")
@@ -118,12 +118,33 @@ else {
 //     default:
 //         console.log("your grade is incorrect")
 // }
+// let grade = "A"
+// switch(grade){
+//         case "A":
+//                 console.log("Well done")
+//                 break;
+//         case "B":
+//                 console.log("Good");
+//                 break;
+//         case "c":
+//                 console.log("Well try");
+//                 break;
+//         case "D":
+//                 console.log("try again");
+//                 break;
+//         default:
+//                 console.log("fail")
+// }
 //      functions in typescript
 //      Name function
 // function funcName(){
 //     console.log("this is my first function")
 // }
 // funcName()
+// function myName(){
+//         console.log("This is Hamza")
+// }
+// myName()
 // function funcName(){
 //     console.log("this is my first function")
 //     console.log("an other value")
@@ -156,6 +177,10 @@ else {
 //     console.log("hamza")
 // }
 // arrowFunction()
+var arrowFunction = function () {
+    console.log("this is arrow funct");
+};
+arrowFunction();
 // let arrowFunction = () => {
 //     let total = 2+3
 //     console.log(total)
