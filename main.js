@@ -177,10 +177,10 @@
 //     console.log("hamza")
 // }
 // arrowFunction()
-var arrowFunction = function () {
-    console.log("this is arrow funct");
-};
-arrowFunction();
+// let arrowFunction = () => {
+//         console.log("this is arrow funct")
+// }
+// arrowFunction()
 // let arrowFunction = () => {
 //     let total = 2+3
 //     console.log(total)
@@ -426,4 +426,45 @@ arrowFunction();
 // let name1:nameType = "hamza"
 // let email:emailType = "hamza@mail"
 // console.log(id, name1, email)
-// time = "2:7"
+// let city = "karachi"
+// console.log(city)
+// let age = 22
+// console.log(age)
+// let firstName = "Hamza"
+// let secondName = "khan"
+// console.log(firstName +" "+ secondName)
+// let num1 = 24
+// let num2 = 56
+// let total = num1 + num2
+// console.log(total)
+//              datatypes 
+//     str, num, boolean, undefined, null, bigint, symbol
+// let age = prompt("Enter your age :")
+// let age = 17
+// if (age >= 18) {
+//         console.log("you are adult")
+// } else {
+//         console.log("you are not adult")
+// }
+// let isRaining = true
+// if (isRaining) {
+//         console.log("Take an umbrella")
+// } else {
+//         console.log("No need for an umbrella")
+// }
+// for (let i = 1; i <= 10; i++){
+//         console.log(i)
+// }
+// for (let i = 1; i <= 10; i++){
+//         if (i % 2 == 0) {
+//                 console.log("True", i)
+//         }
+// }
+// for (let i = 1; i <= 5; i++){
+//         console.log("Hello Hamza", i)
+// }
+var sum = 0;
+for (var i = 1; i <= 10; i++) {
+    sum = sum + i;
+}
+console.log("total", sum);
