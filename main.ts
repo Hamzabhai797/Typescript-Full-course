@@ -600,8 +600,64 @@
 // }
 
 
-let sum = 0
-for (let i = 1; i <= 10; i++){
-        sum = sum + i
-} 
-console.log("total", sum)
+// let sum = 0
+// for (let i = 1; i <= 10; i++){
+//         sum = sum + i
+// } 
+// console.log("total", sum)
+
+// let i = 1;
+// while (i <= 10) {
+//         console.log(i)
+//         i ++
+// }
+
+// let i = 10;
+// while (i > 0) {
+//         console.log(i)
+//         i -= 1
+// }
+
+// let i = 1
+// while(i <= 5){
+//         console.log("Hello Hamza :", i)
+//         i ++
+// }
+
+// let i = 1
+// while(i <= 10) {
+//         if (i % 2 == 0) {
+//                 console.log("This is even :", i)
+//         } 
+//         i ++
+// } 
+
+// let i = 1
+// do {
+//         console.log(i)
+//         i ++
+// } while(i <= 5)
+
+// let i = 1
+// do {
+        // console.log("I am learning Javascript: ", i)
+//         console.log(i, ": I am learning js")
+//         i ++
+// } while(i <= 3)
+
+// let arr = ["apple", "banana", "mango"]
+// for(let i of arr){
+//         console.log(i)
+// }
+
+// let person = {
+//   name: "Hamza",
+//   age: 21,
+//   city: "Peshawar"
+// };
+
+// for (let key in person) {
+//   console.log(key + " : " + person[key]);
+// }
+
+
